@@ -15,7 +15,7 @@ const Effective = () => {
         </Li>
         <Li>
           <a
-            href="https://github.com/mcrowder65/testing-react-scs/blob/master/test/utils.js#L6"
+            href="https://github.com/mcrowder65/testing-react-rvajs/blob/master/test/utils.js#L6"
             target="_blank"
             rel="noopener noreferrer"
           >
