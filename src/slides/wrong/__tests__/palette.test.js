@@ -3,10 +3,11 @@ import { mount } from "enzyme";
 import { Palette } from "../palette";
 import * as ReactIntl from "react-intl";
 import { Button } from "../../../reusable/button";
+import translations from "../../../translations";
 
 test("that it renders", () => {
   mount(
-    <ReactIntl.IntlProvider locale="en">
+    <ReactIntl.IntlProvider messages={translations.en} locale="en">
       <Palette />
     </ReactIntl.IntlProvider>
   );
