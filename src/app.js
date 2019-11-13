@@ -22,6 +22,8 @@ import Outline from "./reusable/outline/outline";
 import { createPersistedStore } from "./redux/create-store";
 import HowIUsedToWriteTests from "./slides/how-i-used-to-write-tests";
 import Siths from "./slides/siths/siths";
+import JourneyToRtl from "./slides/journey-to-rtl";
+import RealWorldExplanation from "./slides/effective/real-world-explanation";
 const routes = [
   { path: "/about-me", name: "About me", component: AboutMe },
   {
@@ -46,6 +48,11 @@ const routes = [
         name: "Color Palette"
       }
     ]
+  },
+  {
+    path: "/journey",
+    name: "My Journey to writing better tests",
+    component: JourneyToRtl
   },
   {
     path: "/what",
@@ -86,6 +93,11 @@ const routes = [
     subcomponents: [
       { path: "/index", name: "Effective", component: Effective },
       { path: "/contrived", name: "Contrived", component: Contrived },
+      {
+        path: "/real-world-explanation",
+        name: "Real World Explanation",
+        component: RealWorldExplanation
+      },
       { path: "/real-world", name: "Real World", component: Palette }
     ]
   },

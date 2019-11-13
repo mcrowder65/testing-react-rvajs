@@ -12,6 +12,12 @@ const What = () => {
         <Ul>
           <Li>Solution for testing React components</Li>
           <Li>Can and should be used anywhere Enzyme is</Li>
+          <Li>
+            Partial Opt-in (you don't need to migrate all of your tests at once)
+          </Li>
+          <Li>
+            React-DOM is a peer dependency (suspense is already supported)
+          </Li>
         </Ul>
       </div>
     </Container>

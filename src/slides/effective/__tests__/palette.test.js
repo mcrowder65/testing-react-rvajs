@@ -2,13 +2,13 @@ import React from "react";
 import { fireEvent } from "@testing-library/react";
 import Palette from "../palette";
 import { theme } from "../../../reusable/theme";
-import { render } from "../../../../test/utils";
+import { render } from "../../../../test/utils-2";
 
 test("that it renders", () => {
   render(<Palette />);
 });
 
-test(`WHEN updating to a new primary color
+test.skip(`WHEN updating to a new primary color
 THEN the button changes to the new primary color
 AND WHEN rerendering the component the new primary color stays`, () => {
   const { getByLabelText, getByTitle, rerender, unmount } = render(<Palette />);

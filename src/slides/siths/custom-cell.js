@@ -5,9 +5,10 @@ class CustomCell extends React.Component {
   state = {
     value: this.props.value
   };
-  getValue() {
+
+  getValue = () => {
     return this.state.value;
-  }
+  };
 
   handleChange = event => {
     this.setState({ value: event.target.value });

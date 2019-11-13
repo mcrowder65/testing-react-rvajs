@@ -27,7 +27,7 @@ const Palette = props => {
       </Button>
       <Text>
         <a
-          href="https://github.com/mcrowder65/testing-react-rvajs/blob/master/src/slides/effective/real-world-example.js"
+          href="https://github.com/mcrowder65/testing-react-rvajs/blob/master/src/slides/effective/palette.js"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -36,7 +36,7 @@ const Palette = props => {
       </Text>
       <Text>
         <a
-          href="https://github.com/mcrowder65/testing-react-rvajs/blob/master/src/slides/effective/__tests__/real-world-example.test.js"
+          href="https://github.com/mcrowder65/testing-react-rvajs/blob/master/src/slides/effective/__tests__/palette.test.js"
           target="_blank"
           rel="noopener noreferrer"
         >
