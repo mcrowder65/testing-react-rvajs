@@ -94,8 +94,8 @@ const routes = [
       { path: "/index", name: "Effective", component: Effective },
       { path: "/contrived", name: "Contrived", component: Contrived },
       {
-        path: "/real-world-explanation",
-        name: "Real World Explanation",
+        path: "/explanation",
+        name: "Explanation",
         component: RealWorldExplanation
       },
       { path: "/real-world", name: "Real World", component: Palette }
